@@ -1,0 +1,8 @@
+#!/bin/bash
+
+targetUrl=$1
+scope=$2
+
+base=$(dirname $0)
+echo $base
+node ${base}/../index.js $targetUrl $scope
